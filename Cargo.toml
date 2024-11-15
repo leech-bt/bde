@@ -11,16 +11,16 @@ repository = "https://github.com/morr0ne/bde"
 include = ["src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
 
 [dependencies]
-itoa = "1.0.9"
-num-traits = "0.2.17"
+itoa = "1.0.11"
+num-traits = "0.2.19"
 serde = { version = "1.0.215", default-features = false }
 thiserror = { version = "2.0.3", default-features = false }
 
 [dev-dependencies]
 anyhow = "1.0.93"
-serde_bytes = "0.11.9"
+serde_bytes = "0.11.15"
 serde_derive = "1.0.215"
-serde_test = "1.0.160"
+serde_test = "1.0.177"
 url = { version = "2.5.3", features = ["serde"] }
 
 [features]
