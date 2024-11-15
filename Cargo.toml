@@ -14,7 +14,7 @@ include = ["src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
 itoa = "1.0.9"
 num-traits = "0.2.17"
 serde = { version = "1.0.215", default-features = false }
-thiserror = "2.0.3"
+thiserror = { version = "2.0.3", default-features = false }
 
 [dev-dependencies]
 anyhow = "1.0.93"
@@ -25,4 +25,4 @@ url = { version = "2.5.3", features = ["serde"] }
 
 [features]
 default = ["std"]
-std = ["serde/std"]
+std = ["serde/std", "thiserror/std"]
