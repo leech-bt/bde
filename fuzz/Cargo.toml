@@ -9,7 +9,7 @@ edition = "2021"
 cargo-fuzz = true
 
 [dependencies]
-libfuzzer-sys = "0.4"
+libfuzzer-sys = "0.4.8"
 bde = { path = ".." }
 
 # Prevent this from interfering with workspaces
